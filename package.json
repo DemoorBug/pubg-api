@@ -1,0 +1,23 @@
+{
+  "name": "pubg-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w src --exec babel-node src/app.js"
+  },
+  "repository": "git@github.com:DemoorBug/pubg-api.git",
+  "author": "demoorbug <demoorbug@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "dotenv": "^8.2.0",
+    "pgr": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "nodemon": "^2.0.2"
+  }
+}
